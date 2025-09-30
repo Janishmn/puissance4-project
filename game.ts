@@ -19,3 +19,9 @@ function playTurn(col: number): void {
     }
   }
 }
+
+function isColumnFull(col: number): boolean {
+  return grid[0][col] !== ' ';
+}
+
+
